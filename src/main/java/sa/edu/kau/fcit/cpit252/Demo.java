@@ -32,7 +32,6 @@ public class Demo {
         System.out.println(String.format("Location (%d,%d)", x, y));
         label.setLocation(x, y);
         this.panel.add(label);
-        this.panel.revalidate();
     }
 
     public static void main(String[] args) {
